@@ -7,21 +7,28 @@ body {
     background-color: lightgoldenrodyellow;
 }
 
+main {
+    padding: 5px;
+}
+
+header {
+    padding: 5px;
+}
+
 .content {
     background-color: aliceblue;
 }
 
 .under-construction-header {
     margin: 5px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
 }
 
-.under-construction-header > * {
-    display: inline-block;
-}
+.under-construction-sub-header {
+    display: flex;
+    justify-content: center;
 
-.under-construction-header > img {
-    width: 64px;
+    height: 48px;
 }
 
